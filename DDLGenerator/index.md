@@ -1,6 +1,6 @@
 ---
 title: "Maven Plugin for DDL Generation"
-layout: default
+layout: withMenu
 ---
 
 Introduction

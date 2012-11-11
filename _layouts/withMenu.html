@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords"
+  content="ggtools, github, software, repository" />
+<link rel="stylesheet" type="text/css" href="/css/pygments.css">
+<link rel="stylesheet" type="text/css" href="/css/default.css">
+<script src="/scripts/cufon-yui.js" type="text/javascript"></script>
+<script src="/scripts/Optima_700.font.js" type="text/javascript"></script>
+<script type="text/javascript">
+	Cufon.replace('h1, h2, h3');
+	Cufon.replace('.title, #sidebar li');
+</script>
+<title>{{ page.title }}</title>
+<!-- Google analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29400032-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- /Google analytics -->
+</head>
+<body>
+  <div class="right ribbon-holder">
+  </div>
+  <div id="container">
+    <div id="header">
+      <h1>{{ page.title }}</h1>
+    </div>
+    <div id="content">{{ content }}</div>
+   <div id="sidebar">
+      <ul>
+      <script type="text/javascript">
+          var headers = document.getElementsByTagName("h2");
+          for (var i = 0 ; i < headers.length ; i++) {
+            var header = headers[i];
+            var id = header.getAttribute("id");
+            document.writeln('<li><a class="toc" href="#'+id+'">'+header.firstChild.nodeValue+'</a></li>');
+          }
+      </script>
+      </ul>
+    </div>
+    <div id="footer">
+    </div>
+  </div>
+  <!-- /container -->
+  <script type="text/javascript">Cufon.now();</script>
+</body>
+</html>
