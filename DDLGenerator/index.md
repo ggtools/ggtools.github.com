@@ -61,6 +61,7 @@ The following configuration needs to be inserted in the `pom.xml` file:
                     <param>classpath*:/META-INF/persistence.xml</param>
                     <param>classpath*:/META-INF/persistence-*.xml</param>
                 </persistenceXmlLocations>
+                <useNewGenerator>true</useNewGenerator>
             </configuration>
         </execution>
     </executions>
