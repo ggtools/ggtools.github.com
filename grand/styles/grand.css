@@ -1,0 +1,118 @@
+/*
+ * Stylesheet for Grand.
+ * © Christophe Labouisse 2004.
+ * $Id: grand.css 491 2004-12-22 23:53:34Z moi $
+ */
+ 
+div.sample-image {
+    text-align: center;
+    margin: 10px;
+}
+
+div.sample-image img {
+	background-color: #ffffff;
+	color: #000066;
+	border: 2px solid #000022;
+	padding: 10px;
+}
+
+div.floating-sample-image {
+    text-align: center;
+    margin: 0px 0px 10px 10px;
+    float: right;
+}
+
+div.floating-sample-image img {
+    background-color: #ffffff;
+    color: #000066;
+    border: 2px solid #000022;
+    padding: 10px;
+}
+
+body { 
+	padding: 0px 12em 0px 6em;  
+	margin: 0px; 
+	}
+
+#header h1, h2 {
+	display: inline;
+}
+
+#menu {
+	background-color: white;
+	border: solid 2px black;
+	width: 10em;
+    right: 10px;
+    top: 10px;
+    position: absolute;
+}
+
+@media screen {
+    body>#menu { position: fixed }
+}
+
+
+#menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border: none
+}
+
+#menu li {
+	margin: 0;
+	padding: 0.25em 0.5em 0.25em 1em;
+	border-top: 1px solid gray;
+	/*width: 100%;*/
+    width: auto;
+    font-size: 80%;
+	display: block;
+    text-align: left;
+    font-weight: bold;
+	font-family: verdana,sansserif;
+}
+
+#menu a { text-decoration: none; }
+
+/*html>body #menu li {
+	width: auto;
+}*/
+
+#menu li:first-child {
+	border: none
+}
+
+div.filter-definitions {
+	margin-left: 2em;
+	margin-right: 2em;
+	padding: 0px 10px 0px 10px;
+}
+
+div.task-parameters {
+	margin-left: 2em;
+	margin-right: 2em;
+	padding: 0px 10px 0px 10px;
+}
+
+div.task-parameters table {
+    border-collapse: collapse;
+    background-color: white;
+    border: 2px solid black;
+}
+
+div.task-parameters th {
+    font-size: 90%;
+}
+
+div.task-parameters td,th {
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+div.task-parameters td.param {
+    font-weight: bold;
+}
+
+div.task-parameters td.mandatory {
+    text-align: center;
+}

@@ -1,0 +1,94 @@
+/*
+ * Stylesheet for ggTools.
+ * © Christophe Labouisse 2003.
+ * $Id: main.css 489 2004-12-20 22:08:22Z moi $
+ */
+
+q {quotes: '' '' '' '';}
+
+body { 
+	font-family: "trebuchet MS",verdana,sans-serif;
+	text-align: justify;
+	background-color: #f0f0f0;
+}
+
+a:hover {
+  color: blue;
+  background-color: #c8c8d0;
+}
+
+a:active {
+  color: red;
+  background-color: yellow;
+}
+
+a:link img, a:visited img {border-style: none}
+
+code, pre { 
+  font-family: andale-mono, monospace;
+  font-size: 0.9em;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+	font-family: Georgia, serif;
+	// text-shadow: 3px 3px 1px black;
+}
+
+div.div-code {
+  background-color: white;
+  color: #000066;
+  margin-left: 2em;
+  margin-right: 2em;
+  border: 2px solid black;
+  padding: 0px 10px 0px 10px;
+  width: auto;
+}
+
+div.div-warning {
+  color: #ff0000;
+  margin-left: 2em;
+  margin-right: 2em;
+  width: auto;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+dt {
+    font-weight: bold;
+}
+
+code {
+	color: #000066;
+}
+
+/* Tema styles */
+pan.contact-name {
+  font-style: italic;
+}
+
+span.duration {
+  font-weight: bold;
+}
+
+#intro {
+}
+
+#form {
+  text-align: right;
+}
+
+#email {
+  background-color: white;
+  color: #000066;
+  margin-left: 2em;
+  margin-right: 2em;
+  border: 2px solid black;
+  padding: 0px 10px 0px 10px;
+  width: auto;
+  text-align: center;
+}
+
+#email a.email {
+  font-family: "Andale mono", "Monotype.com", "Courier New", Courier, monospace;
+}
+
