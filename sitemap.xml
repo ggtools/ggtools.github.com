@@ -2,6 +2,8 @@
 layout: nil
 site_pages:
   - /
+  - /DDLGenerator/index.html
+  - /grand/index.html
   - /LRSync/index.html
   - /LRSync/configuration.html
   - /LRSync/download.html
