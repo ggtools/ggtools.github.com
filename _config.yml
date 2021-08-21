@@ -1,5 +1,6 @@
 safe: true
 auto: true
-pygments: true
+pygments: false
+rouge: true
 uri: http://ggtools.github.com
 
